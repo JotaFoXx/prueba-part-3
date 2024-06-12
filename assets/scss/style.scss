@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/pikachu.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contenido{
+    position: relative;
+}
+#contenido div{
+    position: absolute;
+}
+//cuerpo de pikachu
+img#pikaCuerpo{
+    height: auto;
+    width: 400px;
+}
+#pikaCuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+//ojos pikachu
+img#pikaOjo1{
+    height:auto;
+    width: 50px;
+}
+.ojo1{
+    margin-left: 112px;
+    margin-top: 210px;
+}
+img#pikaOjo2{
+    height:auto ;
+    width:40px ;
+}
+.ojo2{
+    margin-left: 215px;
+    margin-top: 210px;
+}
+//brazos pikachu
+img#pikaBrazo1{
+    width: 80px;
+    height:auto;
+}
+.brazo1{
+    margin-top: 310px;
+    margin-left: 102px;
+}
+img#pikaBrazo2{
+    width:85px;
+    height:auto;
+}
+.brazo2{
+    margin-top: 310px;
+    margin-left: 185px;
+}
+//cola de pikachu
+img#pikaCola{
+    width:250px;
+    height:auto;
+}
+.cola{
+    margin-left: 260px;
+    margin-top: 150px;
+
+}
+//boca de pikachu
+img#pikaBoca{
+    width: 90px ;
+    height:auto;
+}
+.boca{
+    margin-top: 250px;
+    margin-left: 140px;
+}
